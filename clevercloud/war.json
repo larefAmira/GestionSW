@@ -4,12 +4,12 @@
       "goal": "package"
    },
    "deploy": {
-      "container": "TOMCAT8",
+      "container": "TOMCAT7",
       "war": [
          {
             "file": "GestionService.war",
             "context": "/GestionSW",
-            "checkMe": "/GestionSW/ping"
+            "checkMe": "/GestionSW/web/foobar"
          },
        ]
    }
