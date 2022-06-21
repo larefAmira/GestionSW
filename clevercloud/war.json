@@ -1,0 +1,21 @@
+{
+   "build": {
+      "type": "maven",
+      "goal": "package"
+   },
+   "deploy": {
+      "container": "TOMCAT8",
+      "war": [
+         {
+            "file": "GestionService.war",
+            "context": "/GestionSW",
+            "checkMe": "/GestionSW/ping"
+         },
+         {
+            "file": "my-second-app.war",
+            "context": "/app2",
+            "checkMe": "/app2/web/foobar"
+         }
+      ]
+   }
+}
