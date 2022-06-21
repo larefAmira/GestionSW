@@ -11,11 +11,7 @@
             "context": "/GestionSW",
             "checkMe": "/GestionSW/ping"
          },
-         {
-            "file": "my-second-app.war",
-            "context": "/app2",
-            "checkMe": "/app2/web/foobar"
-         }
+          
       ]
    }
 }
