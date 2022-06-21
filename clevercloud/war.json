@@ -4,7 +4,7 @@
       "goal": "package"
    },
    "deploy": {
-      "container": "TOMCAT8",
+      "container": "GLASSFISH4",
       "war": [
          {
             "file": "GestionService.war",
